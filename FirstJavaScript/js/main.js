@@ -1,2 +1,3 @@
 ﻿// Start of code
-alert("Hello, World!");
+var myText = "Hello, World!";
+alert(myText);
