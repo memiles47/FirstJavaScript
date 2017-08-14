@@ -1,2 +1,2 @@
-﻿// Your code here!
-alert();
+﻿// Start of code
+alert("Hello, World!");
