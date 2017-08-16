@@ -6,9 +6,20 @@ function showDistance(speed, time) {
     alert(speed * time);
 };
 
-showDistance(10, 5);
-showDistance(85, 1.5);
-showDistance(22, 9);
-showDistance(42, 21);
+function showDistanceReturn(speed, time) {
+    return speed * time;
+};
 
-alert("Works exactly as I expected");
+function showDistanceReturnVariable(speed, time) {
+    var distance = speed * time;
+    return distance;
+};
+
+showDistance(10, 5);
+alert(showDistanceReturn(85, 1.5));
+alert(showDistanceReturnVariable(22, 9));
+var distanceTraveled = showDistanceReturnVariable(42, 21);
+alert(distanceTraveled);
+
+alert("Works exactly as I expected\nChapter 3 completed!");
+ 
