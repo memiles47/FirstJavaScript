@@ -1,4 +1,6 @@
-﻿// Start of code
+﻿// I'll be seperating this code by chapter or chapters
+
+// Chapters 1 thru 3
 var myText = "I have completed chapter 2 and started chapter 3";
 alert(myText);
 
