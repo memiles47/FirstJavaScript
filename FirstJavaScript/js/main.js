@@ -24,4 +24,25 @@ var distanceTraveled = showDistanceReturnVariable(42, 21);
 alert(distanceTraveled);
 
 alert("Works exactly as I expected\nChapter 3 completed!");
- 
+
+// Chapter 4
+var safeToProceed = false;
+
+if (safeToProceed) {
+    alert("You shall pass!");
+} else {
+    alert("You shall not pass!");
+};
+
+var speedLimit = 55;
+
+function amISpeeding(speed) {
+    if (speed >= speedLimit) {
+        alert("Yes, you are speeding.");
+    } else {
+        alert("No, you are not speeding");
+    }
+};
+
+amISpeeding(53);
+amISpeeding(72);
