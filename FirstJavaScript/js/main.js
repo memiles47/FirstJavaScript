@@ -40,7 +40,7 @@ function amISpeeding(speed) {
     if (speed >= speedLimit) {
         alert("Yes, you are speeding.");
     } else {
-        alert("No, you are not speeding");
+        alert("No, you are not speeding. What's wrong with you?");
     }
 };
 
