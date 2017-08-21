@@ -46,3 +46,41 @@ function amISpeeding(speed) {
 
 amISpeeding(53);
 amISpeeding(72);
+
+var xPos = 300;
+var yPos = 150;
+
+function sendWarning(x, y) {
+    if ((x < xPos) && (y < yPos)) {
+        alert("Adjust the position");
+    } else {
+        alert("Things are fine");
+    }
+}
+
+sendWarning(500, 160);
+sendWarning(100, 100);
+sendWarning(201, 149);
+
+var color = "green";
+
+switch (color) {
+case "yellow":
+    alert("Yellow Color");
+    break;
+case "red":
+    alert("Red Color");
+    break;
+case "blue":
+    alert("Blue Color");
+    break;
+case "green":
+    alert("Green Color");
+    break;
+case "black":
+    alert("Black Color");
+    break;
+default:
+    alert("No known color specified");
+}
+
