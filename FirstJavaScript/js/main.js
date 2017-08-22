@@ -6,16 +6,16 @@ alert(myText);
 
 function showDistance(speed, time) {
     alert(speed * time);
-};
+}
 
 function showDistanceReturn(speed, time) {
     return speed * time;
-};
+}
 
 function showDistanceReturnVariable(speed, time) {
     var distance = speed * time;
     return distance;
-};
+}
 
 showDistance(10, 5);
 alert(showDistanceReturn(85, 1.5));
