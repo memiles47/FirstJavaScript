@@ -84,7 +84,7 @@ default:
     alert("No known color specified");
 }
 
-// Chapter 7
-
-
-
+/*
+Still section / chapter 4
+adding script to modify te DOM
+*/
