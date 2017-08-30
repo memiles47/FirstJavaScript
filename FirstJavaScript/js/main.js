@@ -84,3 +84,7 @@ default:
     alert("No known color specified");
 }
 
+// Chapter 7
+
+
+
